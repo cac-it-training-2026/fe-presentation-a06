@@ -7,48 +7,71 @@
     </head>
     <header>
 	グループA06 機械学習の基礎概念と種類（教師あり学習・教師なし学習）<br>
-	基本情報技術者試験「風」問題(難易度:)
+	基本情報技術者試験「風」問題（難易度：★★★☆☆）
     </header>
     <body>
         <div class="quiz-container">
-            <h3 class="quiz-question">問題2</h3>
+    <h3 class="quiz-question">
+        問題2：機械学習における教師なし学習の説明として，最も適切なものはどれか。
+    </h3>
 
-            <form class="quiz-options">
-                <label>
-                    <input type="radio" name="q1" value="1" /> 1. High Text
-                    Markup Language
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="2" /> 2. Hyper Text
-                    Markup Language
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="3" /> 3. Hyper Tool
-                    Multi Language
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="4" /> 4. Hyper Text
-                    Make Language
-                </label>
-            </form>
+    <form class="quiz-options">
+        <label>
+            <input type="radio" name="q2" value="1" />
+            ア　入力データと正解データを用いて学習を行い，
+            未知のデータに対して分類や予測を行う。
+        </label>
 
-            <details class="quiz-answer">
-                <summary>解答と解説を見る</summary>
-                <div class="answer-content">
-                    <p class="correct-answer">
-                        <strong>正解：2. Hyper Text Markup Language</strong>
-                    </p>
-                    <p class="explanation">
-                        <strong>解説：</strong><br />
-                        HTMLは「Hyper Text Markup
-                        Language（ハイパーテキスト・マークアップ・ランゲージ）」の略です。Webページの構造を作成するための言語として使用されます。
-                    </p>
-                </div>
-            </details>
-            <a href="question00.html" class="btn_back">
+        <label>
+            <input type="radio" name="q2" value="2" />
+            イ　行動に対して報酬や罰を与えることによって，
+            最適な行動を学習する。
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="3" />
+            ウ　正解データを与えずに，
+            データの特徴や傾向からグループ分けを行う。
+        </label>
+
+        <label>
+            <input type="radio" name="q2" value="4" />
+            エ　大量の文章データから，
+            次に出現する単語を予測する。
+        </label>
+    </form>
+
+    <details class="quiz-answer">
+        <summary>解答と解説を見る</summary>
+
+        <div class="answer-content">
+            <p class="correct-answer">
+                <strong>正解：ウ</strong>
+            </p>
+
+            <p class="explanation">
+                <strong>解説：</strong><br />
+                正解は”ウ”<br />
+                教師なし学習とは，
+                正解データ（ラベル）を与えずに，
+                データの特徴や規則性を基に分類や分析を行う
+                機械学習の手法です。<br /><br />
+
+                代表例として，
+                類似したデータをまとめる
+                「クラスタリング」があります。<br /><br />
+
+                なお，<br />
+                アは「教師あり学習」の説明です。<br />
+                イは「強化学習」の説明です。<br />
+                エは生成AIや自然言語処理に関する説明です。<br />
+            </p>
+        </div>
+    </details>
+            <a href="question00.html" class="btn btn_back">
 			  前の問題
 			</a>
-            <a href="question00_03.html" class="btn_next">
+            <a href="question00_03.html" class="btn btn_next">
 			  次の問題
 			</a>
         </div>
