@@ -167,7 +167,7 @@ header, footer {
     box-shadow: 2px 2px 0 #666;
 }
 
-.btn_next {
+.btn_next {/*進むボタンのcss 緑色で作成しました*/
     display: inline-block;
     padding: 14px 28px;
 
@@ -186,7 +186,7 @@ header, footer {
     margin-top: 50px;
 }
 
-.btn_back {
+.btn_back {/*戻るボタンのcss 赤色のボタンを作りました*/
     display: inline-block;
 
     padding: 14px 28px;
