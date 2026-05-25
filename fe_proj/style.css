@@ -34,7 +34,7 @@ body::before {
     );
 
     background-size: 800% 800%;
-    animation: rainbow 20s linear infinite alternate;
+    animation: rainbow 200s linear infinite alternate;
 
     opacity: 0.18; /* ←薄くしてベース色を活かす */
     pointer-events: none;
