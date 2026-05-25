@@ -7,6 +7,48 @@ body {
     padding: 20px;
     background-color: #f4f7f6;
     font-size: 1.8rem;
+
+    position: relative;
+    z-index: 0;
+}
+
+/* 虹レイヤー */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+
+    background-size: 800% 800%;
+    animation: rainbow 20s linear infinite alternate;
+
+    opacity: 0.18; /* ←薄くしてベース色を活かす */
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* アニメーション */
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 /* 問題の枠組み */
