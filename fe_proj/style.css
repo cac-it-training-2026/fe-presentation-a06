@@ -219,3 +219,9 @@ header, footer {
     transition: 0.15s;
     margin-top: 50px;
 }
+/* ボタン中央配置 */
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
